@@ -7,7 +7,7 @@ var Genre = new Schema({
 });
 
 Genre.virtual("url").get(function () {
-  return "/catalog/genre/" + this._id;
+  return "/catalog/genres/" + this._id;
 });
 
 //Export model
