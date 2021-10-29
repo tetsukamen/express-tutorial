@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "devStart": "nodemon ./bin/www",
-    "debugStart": "DEBUG=express-tutorial:* npm run devStart",
-    "startDb": "brew services start mongodb-community",
-    "stopDb": "brew services stop mongodb-community"
+    "dev-start": "nodemon ./bin/www",
+    "debug-start": "DEBUG=express-tutorial:* npm run devStart",
+    "start-db": "brew services start mongodb-community",
+    "stop-db": "brew services stop mongodb-community"
   },
   "dependencies": {
     "async": "^3.2.1",
